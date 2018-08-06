@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.chatbotnew"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="18" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.FLASHLIGHT" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.chatbotnew.Login"
+            android:label="@string/title_activity_login" >
+        </activity>
+        <activity
+            android:name="com.example.chatbotnew.HomePage"
+            android:label="@string/title_activity_home_page" >
+        </activity>
+        <activity
+            android:name="com.example.chatbotnew.Capture"
+            android:label="@string/title_activity_capture" >
+        </activity>
+        <activity
+            android:name="com.example.chatbotnew.ChangePassword"
+            android:label="@string/title_activity_change_password" >
+        </activity>
+        <activity
+            android:name="com.example.chatbotnew.Description"
+            android:label="@string/title_activity_description" >
+        </activity>
+        <activity
+            android:name="com.example.chatbotnew.Feedback"
+            android:label="@string/title_activity_feedback" >
+        </activity>
+        <activity
+            android:name="com.example.chatbotnew.ForgotPassword"
+            android:label="@string/title_activity_forgot_password" >
+        </activity>
+        <activity
+            android:name="com.example.chatbotnew.PageRegister"
+            android:label="@string/title_activity_page_register" >
+        </activity>
+        <activity
+            android:name="com.example.chatbotnew.PersonalInfo"
+            android:label="@string/title_activity_personal_info" >
+        </activity>
+        <activity
+            android:name="com.example.chatbotnew.PhysicalProfile"
+            android:label="@string/title_activity_physical_profile" >
+        </activity>
+        <activity
+            android:name="com.example.chatbotnew.Q1"
+            android:label="@string/title_activity_q1" >
+        </activity>
+        <activity
+            android:name="com.example.chatbotnew.Qanswers"
+            android:label="@string/title_activity_qanswers" >
+        </activity>
+        <activity
+            android:name="com.example.chatbotnew.QorImage"
+            android:label="@string/title_activity_qor_image" >
+        </activity>
+        <activity
+            android:name="com.example.chatbotnew.Question2"
+            android:label="@string/title_activity_question2" >
+        </activity>
+        <activity
+            android:name="com.example.chatbotnew.Questions"
+            android:label="@string/title_activity_questions" >
+        </activity>
+        <activity
+            android:name="com.example.chatbotnew.QuestionsAnswered"
+            android:label="@string/title_activity_questions_answered" >
+        </activity>
+        <activity
+            android:name="com.example.chatbotnew.ReplyQuestions"
+            android:label="@string/title_activity_reply_questions" >
+        </activity>
+        <activity
+            android:name="com.example.chatbotnew.Ureg"
+            android:label="@string/title_activity_ureg" >
+        </activity>
+        <activity
+            android:name="com.example.chatbotnew.Userhome"
+            android:label="@string/title_activity_userhome" >
+        </activity>
+        <activity
+            android:name="com.example.chatbotnew.UserProfile"
+            android:label="@string/title_activity_user_profile" >
+        </activity>
+        <activity
+            android:name="com.example.chatbotnew.Usertype"
+            android:label="@string/title_activity_usertype" >
+        </activity>
+        <activity
+            android:name="com.example.chatbotnew.ViewQuestions"
+            android:label="@string/title_activity_view_questions" >
+        </activity>
+        <activity
+            android:name="com.example.chatbotnew.UserInfo"
+            android:label="@string/title_activity_user_info" >
+        </activity>
+        <activity
+            android:name="com.example.chatbotnew.Custom"
+            android:label="@string/title_activity_custom" >
+        </activity>
+        <activity
+            android:name="com.example.chatbotnew.Feedback_user"
+            android:label="@string/title_activity_feedback_user" >
+        </activity>
+        <activity
+            android:name="com.example.chatbotnew.IpSettings"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.chatbotnew.Result"
+            android:label="@string/title_activity_result" >
+        </activity>
+        <activity
+            android:name="com.example.chatbotnew.Custom2"
+            android:label="@string/title_activity_custom2" >
+        </activity>
+        <activity
+            android:name="com.example.chatbotnew.ViewAnsweredusers"
+            android:label="@string/title_activity_view_answeredusers" >
+        </activity>
+    </application>
+
+</manifest>
